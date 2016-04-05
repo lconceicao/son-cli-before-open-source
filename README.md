@@ -17,7 +17,7 @@ Prerequisites:
 1. Install virtualenvwrapper using your distribution repositories or the pip package.
 https://virtualenvwrapper.readthedocs.org/en/latest/
 1. Create a virtualenv for this project 
-`virtualenv -p /usr/bin/python34 sonata`
+`mkvirtualenv -p /usr/bin/python34 sonata`
 
 ### working on the project
 
@@ -35,4 +35,8 @@ but that is low on the priority list
 If you are using pycharm, the IDE has support both for buildout and for virtualenvs,
 please read their fine documentation on the subject before proceeding
 
+
+### Generated binaries
+
+The buildout generates the binaries for the tools son-workspace and son-package. Information on how to use the tools is provided in the README file at src/son/workspace and src/son/package, respectively.
 
